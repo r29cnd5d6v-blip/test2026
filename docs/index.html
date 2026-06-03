@@ -1,0 +1,30 @@
+<html>
+
+<head>
+   website by elenor zart
+   <meta charset="UTF-8">
+    <title>Datum Beispiel</title>
+    <script>
+        function zeigeDatum() {
+            var heute = new Date();
+            var datumString = heute.toLocaleDateString('de-DE'); // Format: TT.MM.JJJJ
+            document.getElementById('datum').innerHTML = datumString;
+        }
+    </script>
+</head>
+
+<body onload="zeigeDatum()">
+    <header>
+        <p>heute ist: <span id="datum"></span></p>
+    </header>
+
+unsere erste <strong>megatolle</strong> super website!!!!!
+
+<label for="setcolor">select color</label>
+<input type="color" id="setcolor">
+
+1. umami burger
+2. vegane currywurst
+
+</body>
+</html>
